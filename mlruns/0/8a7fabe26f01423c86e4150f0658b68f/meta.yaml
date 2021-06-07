@@ -1,0 +1,15 @@
+artifact_uri: file:///media/mrinal/Windows8_OS/Work/CANVAS/Intern/financeDistress-FDP-Phase1/mlruns/0/8a7fabe26f01423c86e4150f0658b68f/artifacts
+end_time: 1603021364731
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8a7fabe26f01423c86e4150f0658b68f
+run_uuid: 8a7fabe26f01423c86e4150f0658b68f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1603021274376
+status: 3
+tags: []
+user_id: mrinal

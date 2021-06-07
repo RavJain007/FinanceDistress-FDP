@@ -1,0 +1,322 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#btn_submit").click(function()  {
+             var params = [];
+             for (var i = 1 ; i <= 64; ++i) {
+                  params.push( $("#Attr" + i).val());
+
+             }
+                  $.ajax ({
+                     url:'/predictclient',
+                     type: 'POST',
+                     contentType: 'application/json',
+                     data: JSON.stringify({"Data": params}),
+                     dataType: 'json'
+                 })
+
+        ;})
+
+    });
+</script>
+
+<div class="ui form">
+  <div class="fields">
+    <div class="field">
+      <label>Attr1</label>
+      <input type="text" name = "Attr1" id="Attr1" placeholder="net profit/ total assets">
+    </div>
+    <div class="field">
+      <label>Attr2</label>
+      <input type="text"  name = "Attr2"  id="Attr2" placeholder="total liabilities/ total assets">
+    </div>
+    <div class="field">
+      <label>Attr3</label>
+      <input type="text" name = "Attr3"  id="Attr3" placeholder="working Capital / total assets">
+    </div>
+    <div class="field">
+      <label>Attr4</label>
+      <input type="text" name = "Attr4"  id="Attr4" placeholder="current assets/ short-term liabilities">
+    </div>
+    <div class="field">
+      <label>Attr5</label>
+      <input type="text" name = "Attr5"  id="Attr5" placeholder="[(cash + short-term securities + receivables - short-term liabilities) / (operating expenses - depreciation)] * 365">
+    </div>
+    <div class="field">
+      <label>Attr6</label>
+      <input type="text"  name = "Attr6"  id="Attr6" placeholder="retained earnings / total assets">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr7</label>
+      <input type="text" name = "Attr7"  id="Attr7" placeholder="EBIT / total assets">
+    </div>
+    <div class="field">
+      <label>Attr8</label>
+      <input type="text" name = "Attr8"  id="Attr8" placeholder="book value of equity / total liabilities">
+    </div>
+    <div class="field">
+      <label>Attr9</label>
+      <input type="text" name = "Attr9"  id="Attr9" placeholder="sales / total assets">
+    </div>
+    <div class="field">
+      <label>Attr10</label>
+      <input type="text" name = "Attr10"  id="Attr10" placeholder="equity / total assets">
+    </div>
+    <div class="field">
+      <label>Attr11</label>
+      <input type="text" name = "Attr11"  id="Attr11" placeholder="(gross profit + extraordinary items + financial expenses) / total assets">
+    </div>
+    <div class="field">
+      <label>Attr12</label>
+      <input type="text" name = "Attr12"  id="Attr12" placeholder="gross profit / short-term liabilities">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr13</label>
+      <input type="text" name = "Attr13"  id="Attr13" placeholder="sales / total assets">
+    </div>
+    <div class="field">
+      <label>Attr14</label>
+      <input type="text" name = "Attr14"  id="Attr14" placeholder="equity / total assets">
+    </div>
+    <div class="field">
+      <label>Attr15</label>
+      <input type="text" name = "Attr15"  id="Attr15" placeholder="(gross profit + extraordinary items + financial expenses) / total assets">
+    </div>
+    <div class="field">
+      <label>Attr16</label>
+      <input type="text"  name = "Attr16"  id="Attr16" placeholder="gross profit / short-term liabilities">
+    </div>
+    <div class="field">
+      <label>Attr17</label>
+      <input type="text" name = "Attr17"  id="Attr17" placeholder="total assets / total liabilities">
+    </div>
+    <div class="field">
+      <label>Attr18</label>
+      <input type="text" name = "Attr18"  id="Attr18" placeholder="gross profit / total assets">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr19</label>
+      <input type="text" name = "Attr19"  id="Attr19" placeholder="gross profit / sales">
+    </div>
+    <div class="field">
+      <label>Attr20</label>
+      <input type="text" name = "Attr20"  id="Attr20" placeholder="(inventory * 365) / sales">
+    </div>
+    <div class="field">
+      <label>Attr21</label>
+      <input type="text" name = "Attr21"  id="Attr21" placeholder="sales (n) / sales (n-1)">
+    </div>
+    <div class="field">
+      <label>Attr22</label>
+      <input type="text" name = "Attr22"  id="Attr22" placeholder="profit on operating activities / total assets">
+    </div>
+    <div class="field">
+      <label>Attr23</label>
+      <input type="text" name = "Attr23"  id="Attr23" placeholder="net profit / sales">
+    </div>
+    <div class="field">
+      <label>Attr24</label>
+      <input type="text" name = "Attr24"  id="Attr24" placeholder="gross profit (in 3 years) / total assets">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr25</label>
+      <input type="text" name = "Attr25"  id="Attr25" placeholder="(equity - share capital) / total assets">
+    </div>
+    <div class="field">
+      <label>Attr26</label>
+      <input type="text" name = "Attr26"  id="Attr26" placeholder="(net profit + depreciation) / total liabilities">
+    </div>
+    <div class="field">
+      <label>Attr27</label>
+      <input type="text" name = "Attr27"  id="Attr27" placeholder="profit on operating activities / financial expenses">
+    </div>
+    <div class="field">
+      <label>Attr28</label>
+      <input type="text"  name = "Attr28"  id="Attr28" placeholder="working capital / fixed assets">
+    </div>
+    <div class="field">
+      <label>Attr29</label>
+      <input type="text"  name = "Attr29"  id="Attr29" placeholder="logarithm of total assets">
+    </div>
+    <div class="field">
+      <label>Attr30</label>
+      <input type="text"  name = "Attr30"  id="Attr30" placeholder="(total liabilities - cash) / sales">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr31</label>
+      <input type="text"  name = "Attr31"  id="Attr31" placeholder="(gross profit + interest) / sales">
+    </div>
+    <div class="field">
+      <label>Attr32</label>
+      <input type="text" name = "Attr32"  id="Attr32" placeholder="(current liabilities * 365) / cost of products sold">
+    </div>
+    <div class="field">
+      <label>Attr33</label>
+      <input type="text" name = "Attr33"  id="Attr33" placeholder="operating expenses / short-term liabilities">
+    </div>
+    <div class="field">
+      <label>Attr34</label>
+      <input type="text" name = "Attr34"  id="Attr34" placeholder="operating expenses / total liabilities">
+    </div>
+    <div class="field">
+      <label>Attr35</label>
+      <input type="text" name = "Attr35"  id="Attr35" placeholder="profit on sales / total assets">
+    </div>
+    <div class="field">
+      <label>Attr36</label>
+      <input type="text" name = "Attr36"  id="Attr36" placeholder="total sales / total assets">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr37</label>
+      <input type="text" name = "Attr37"  id="Attr37" placeholder="(current assets - inventories) / long-term liabilities">
+    </div>
+    <div class="field">
+      <label>Attr38</label>
+      <input type="text" name = "Attr38"  id="Attr38" placeholder="constant capital / total assets">
+    </div>
+    <div class="field">
+      <label>Attr39</label>
+      <input type="text" name = "Attr39"  id="Attr39" placeholder="profit on sales / sales">
+    </div>
+    <div class="field">
+      <label>Attr40</label>
+      <input type="text" name = "Attr40"  id="Attr40"  placeholder="(current assets - inventory - receivables) / short-term liabilities">
+    </div>
+    <div class="field">
+      <label>Attr41</label>
+      <input type="text" name = "Attr41"  id="Attr41" placeholder="total liabilities / ((profit on operating activities + depreciation) * (12/365))">
+    </div>
+    <div class="field">
+      <label>Attr42</label>
+      <input type="text" name = "Attr42"  id="Attr42" placeholder="profit on operating activities / sales">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr43</label>
+      <input type="text" name = "Attr43"  id="Attr43" placeholder="rotation receivables + inventory turnover in days">
+    </div>
+    <div class="field">
+      <label>Attr44</label>
+      <input type="text" name = "Attr44"  id="Attr44" placeholder="(receivables * 365) / sales">
+    </div>
+    <div class="field">
+      <label>Attr45</label>
+      <input type="text" name = "Attr45"  id="Attr45" placeholder="net profit / inventory">
+    </div>
+    <div class="field">
+      <label>Attr46</label>
+      <input type="text" name = "Attr46"  id="Attr46" placeholder="(current assets - inventory) / short-term liabilities">
+    </div>
+    <div class="field">
+      <label>Attr47</label>
+      <input type="text" name = "Attr47"  id="Attr47" placeholder="(inventory * 365) / cost of products sold">
+    </div>
+    <div class="field">
+      <label>Attr48</label>
+      <input type="text" name = "Attr48"  id="Attr48" placeholder="EBITDA (profit on operating activities - depreciation) / total assets">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr49</label>
+      <input type="text" name = "Attr49"  id="Attr49" placeholder="EBITDA (profit on operating activities - depreciation) / sales">
+    </div>
+    <div class="field">
+      <label>Attr50</label>
+      <input type="text" name = "Attr50"  id="Attr50"placeholder="current assets / total liabilities">
+    </div>
+    <div class="field">
+      <label>Attr51</label>
+      <input type="text" name = "Attr51"  id="Attr51" placeholder=" short-term liabilities / total assets">
+    </div>
+    <div class="field">
+      <label>Attr52</label>
+      <input type="text"  name = "Attr52"  id="Attr52" placeholder="(short-term liabilities * 365) / cost of products sold)">
+    </div>
+    <div class="field">
+      <label>Attr53</label>
+      <input type="text"  name = "Attr53"  id="Attr53" placeholder="equity / fixed assets">
+    </div>
+    <div class="field">
+      <label>Attr54</label>
+      <input type="text"  name = "Attr54"  id="Attr54" placeholder="constant capital / fixed assets">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr55</label>
+      <input type="text"  name = "Attr55"  id="Attr55" placeholder="working capital">
+    </div>
+    <div class="field">
+      <label>Attr56</label>
+      <input type="text"  name = "Attr56"  id="Attr56" placeholder="(sales - cost of products sold) / sales">
+    </div>
+    <div class="field">
+      <label>Attr57</label>
+      <input type="text"  name = "Attr57"  id="Attr57" placeholder="(current assets - inventory - short-term liabilities) / (sales - gross profit - depreciation)">
+    </div>
+    <div class="field">
+      <label>Attr58</label>
+      <input type="text"  name = "Attr58"  id="Attr58" placeholder="total costs /total sales">
+    </div>
+    <div class="field">
+      <label>Attr59</label>
+      <input type="text"  name = "Attr59"  id="Attr59" placeholder="long-term liabilities / equity">
+    </div>
+    <div class="field">
+      <label>Attr60</label>
+      <input type="text"  name = "Attr60"  id="Attr60" placeholder="sales / inventory">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="field">
+      <label>Attr61</label>
+      <input type="text" name = "Attr61"  id="Attr61" placeholder="sales / receivables">
+    </div>
+    <div class="field">
+      <label>Attr62</label>
+      <input type="text" name = "Attr62"  id="Attr62" placeholder="(short-term liabilities *365) / sales">
+    </div>
+    <div class="field">
+      <label>Attr63</label>
+      <input type="text"name = "Attr63"  id="Attr63" placeholder="sales / short-term liabilities">
+    </div>
+    <div class="field">
+      <label>Attr64</label>
+      <input type="text" name = "Attr64"  id="Attr64" placeholder="sales / fixed assets">
+    </div>
+  </div>
+<form id="Distress_form" >
+  <button class="ui secondary button" id="btn_submit"  >
+    Submit
+  </button>
+</form>
+<!--<button class="ui secondary button">
+#  Submit
+#</button>-->
+<button class="ui button">
+  Reset
+</button>
+  </div>
+</div>
+{% endblock %}

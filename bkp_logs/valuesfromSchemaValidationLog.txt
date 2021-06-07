@@ -1,0 +1,172 @@
+2020-10-04/17:06:49		NumberofColumns:: 65
+
+2020-10-04/17:09:27		NumberofColumns:: 65
+
+2020-10-04/17:10:53		NumberofColumns:: 65
+
+2020-10-04/17:12:15		NumberofColumns:: 65
+
+2020-10-04/17:13:00		NumberofColumns:: 65
+
+2020-10-04/17:14:36		NumberofColumns:: 65
+
+2020-10-04/17:18:28		NumberofColumns:: 65
+
+2020-10-04/17:22:20		NumberofColumns:: 65
+
+2020-10-04/17:36:19		NumberofColumns:: 65
+
+2020-10-04/17:38:52		NumberofColumns:: 65
+
+2020-10-04/17:39:10		NumberofColumns:: 65
+
+2020-10-04/17:39:59		NumberofColumns:: 65
+
+2020-10-04/17:46:06		NumberofColumns:: 65
+
+2020-10-04/17:49:31		NumberofColumns:: 65
+
+2020-10-04/17:56:11		NumberofColumns:: 65
+
+2020-10-04/17:59:59		NumberofColumns:: 65
+
+2020-10-04/18:07:25		NumberofColumns:: 65
+
+2020-10-04/18:46:24		NumberofColumns:: 65
+
+2020-10-04/19:03:56		NumberofColumns:: 65
+
+2020-10-04/19:07:36		NumberofColumns:: 65
+
+2020-10-04/19:10:35		NumberofColumns:: 65
+
+2020-10-04/19:12:44		NumberofColumns:: 65
+
+2020-10-04/19:19:18		NumberofColumns:: 65
+
+2020-10-04/19:31:58		NumberofColumns:: 65
+
+2020-10-04/19:33:12		NumberofColumns:: 65
+
+2020-10-04/19:34:43		NumberofColumns:: 65
+
+2020-10-04/19:36:21		NumberofColumns:: 65
+
+2020-10-05/18:35:09		NumberofColumns:: 65
+
+2020-10-05/18:38:54		NumberofColumns:: 65
+
+2020-10-05/18:39:34		NumberofColumns:: 65
+
+2020-10-05/18:41:28		NumberofColumns:: 65
+
+2020-10-05/18:42:35		NumberofColumns:: 65
+
+2020-10-05/18:50:53		NumberofColumns:: 65
+
+2020-10-05/19:26:21		NumberofColumns:: 65
+
+2020-10-05/19:30:33		NumberofColumns:: 65
+
+2020-10-05/19:37:04		NumberofColumns:: 65
+
+2020-10-05/19:42:37		NumberofColumns:: 65
+
+2020-10-05/19:44:44		NumberofColumns:: 65
+
+2020-10-05/20:01:47		NumberofColumns:: 65
+
+2020-10-05/20:06:05		NumberofColumns:: 65
+
+2020-10-05/20:26:15		NumberofColumns:: 65
+
+2020-10-05/20:30:27		NumberofColumns:: 65
+
+2020-10-05/20:35:34		NumberofColumns:: 65
+
+2020-10-05/20:40:04		NumberofColumns:: 65
+
+2020-10-05/20:45:15		NumberofColumns:: 65
+
+2020-10-05/20:49:22		NumberofColumns:: 65
+
+2020-10-05/21:52:08		NumberofColumns:: 65
+
+2020-10-06/07:58:51		NumberofColumns:: 65
+
+2020-10-06/10:22:57		NumberofColumns:: 65
+
+2020-10-06/10:31:07		NumberofColumns:: 65
+
+2020-10-06/11:32:22		NumberofColumns:: 65
+
+2020-10-06/11:35:21		NumberofColumns:: 65
+
+2020-10-06/11:56:43		NumberofColumns:: 65
+
+2020-10-06/12:12:57		NumberofColumns:: 65
+
+2020-10-06/12:14:06		NumberofColumns:: 65
+
+2020-10-06/12:16:05		NumberofColumns:: 65
+
+2020-10-06/21:50:01		NumberofColumns:: 65
+
+2020-10-06/21:54:24		NumberofColumns:: 65
+
+2020-10-06/21:58:36		NumberofColumns:: 65
+
+2020-10-06/22:12:12		NumberofColumns:: 65
+
+2020-10-06/22:23:25		NumberofColumns:: 65
+
+2020-10-06/22:36:24		NumberofColumns:: 65
+
+2020-10-06/22:39:20		NumberofColumns:: 65
+
+2020-10-06/22:43:07		NumberofColumns:: 65
+
+2020-10-06/22:53:07		NumberofColumns:: 65
+
+2020-10-06/23:05:28		NumberofColumns:: 65
+
+2020-10-06/23:15:03		NumberofColumns:: 65
+
+2020-10-06/23:16:58		NumberofColumns:: 65
+
+2020-10-06/23:20:13		NumberofColumns:: 65
+
+2020-10-07/14:32:11		NumberofColumns:: 65
+
+2020-10-08/21:21:50		NumberofColumns:: 65
+
+2020-10-09/07:19:07		NumberofColumns:: 65
+
+2020-10-09/07:26:43		NumberofColumns:: 65
+
+2020-10-09/07:42:59		NumberofColumns:: 65
+
+2020-10-09/08:01:57		NumberofColumns:: 65
+
+2020-10-09/08:11:28		NumberofColumns:: 65
+
+2020-10-09/08:20:37		NumberofColumns:: 65
+
+2020-10-14/22:09:32		NumberofColumns:: 65
+
+2020-10-17/21:46:21		NumberofColumns:: 65
+
+2020-10-17/21:47:18		NumberofColumns:: 65
+
+2020-10-17/22:02:42		NumberofColumns:: 65
+
+2020-10-17/23:20:35		NumberofColumns:: 65
+
+2020-10-18/08:49:35		NumberofColumns:: 65
+
+2020-10-18/08:51:34		NumberofColumns:: 65
+
+2020-10-18/08:55:09		NumberofColumns:: 65
+
+2020-10-18/08:59:18		NumberofColumns:: 65
+

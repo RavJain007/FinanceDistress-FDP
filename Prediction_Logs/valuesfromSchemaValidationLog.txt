@@ -1,0 +1,180 @@
+2020-10-07/14:52:55		NumberofColumns:: 64
+
+2020-10-07/15:06:43		NumberofColumns:: 65
+
+2020-10-07/15:39:42		NumberofColumns:: 65
+
+2020-10-07/15:45:39		NumberofColumns:: 65
+
+2020-10-07/15:55:30		NumberofColumns:: 65
+
+2020-10-07/15:59:17		NumberofColumns:: 65
+
+2020-10-07/16:00:36		NumberofColumns:: 65
+
+2020-10-07/16:02:57		NumberofColumns:: 65
+
+2020-10-07/21:59:22		NumberofColumns:: 65
+
+2020-10-07/22:11:41		NumberofColumns:: 65
+
+2020-10-07/22:21:32		NumberofColumns:: 65
+
+2020-10-07/22:23:46		NumberofColumns:: 65
+
+2020-10-07/22:26:00		NumberofColumns:: 65
+
+2020-10-07/22:29:18		NumberofColumns:: 65
+
+2020-10-08/07:47:34		NumberofColumns:: 65
+
+2020-10-08/07:49:11		NumberofColumns:: 65
+
+2020-10-08/07:52:36		NumberofColumns:: 65
+
+2020-10-11/10:44:01		NumberofColumns:: 65
+
+2020-10-11/10:45:19		NumberofColumns:: 65
+
+2020-10-11/10:50:40		NumberofColumns:: 65
+
+2020-10-11/10:52:05		NumberofColumns:: 65
+
+2020-10-11/11:02:37		NumberofColumns:: 65
+
+2020-10-11/11:04:36		NumberofColumns:: 65
+
+2020-10-11/11:10:46		NumberofColumns:: 65
+
+2020-10-11/11:14:29		NumberofColumns:: 65
+
+2020-10-14/22:24:13		NumberofColumns:: 65
+
+2020-10-31/16:24:27		NumberofColumns:: 65
+
+2020-10-31/16:33:37		NumberofColumns:: 65
+
+2020-10-31/16:39:23		NumberofColumns:: 65
+
+2020-10-31/16:53:59		NumberofColumns:: 65
+
+2020-10-31/17:18:04		NumberofColumns:: 65
+
+2020-10-31/17:35:10		NumberofColumns:: 65
+
+2020-10-31/17:39:52		NumberofColumns:: 65
+
+2020-10-31/18:07:47		NumberofColumns:: 65
+
+2020-10-31/18:16:41		NumberofColumns:: 65
+
+2020-10-31/20:48:19		NumberofColumns:: 65
+
+2020-11-01/10:59:53		NumberofColumns:: 65
+
+2020-11-01/11:15:55		NumberofColumns:: 65
+
+2020-11-01/11:34:39		NumberofColumns:: 65
+
+2020-11-01/11:54:48		NumberofColumns:: 65
+
+2020-11-01/11:56:47		NumberofColumns:: 65
+
+2020-11-01/12:00:23		NumberofColumns:: 65
+
+2020-11-01/12:14:18		NumberofColumns:: 65
+
+2020-11-01/12:18:22		NumberofColumns:: 65
+
+2020-11-01/12:21:14		NumberofColumns:: 65
+
+2020-11-01/12:24:36		NumberofColumns:: 65
+
+2020-11-01/12:29:56		NumberofColumns:: 65
+
+2020-11-14/09:18:42		ValueError:Value not found inside schema_training.json
+2020-11-14/09:22:19		ValueError:Value not found inside schema_training.json
+2020-11-14/09:24:44		NumberofColumns:: 64
+
+2020-11-14/09:27:46		NumberofColumns:: 64
+
+2020-11-14/09:29:23		NumberofColumns:: 64
+
+2020-11-14/09:30:18		NumberofColumns:: 64
+
+2020-11-14/09:44:49		NumberofColumns:: 64
+
+2020-11-14/09:45:15		NumberofColumns:: 64
+
+2020-11-14/09:46:24		NumberofColumns:: 64
+
+2020-11-14/09:47:42		NumberofColumns:: 64
+
+2020-11-14/09:49:10		NumberofColumns:: 64
+
+2020-11-14/09:52:30		NumberofColumns:: 64
+
+2020-11-14/09:58:22		NumberofColumns:: 64
+
+2020-11-14/10:04:30		NumberofColumns:: 64
+
+2020-11-14/10:13:17		NumberofColumns:: 64
+
+2020-11-14/10:15:09		NumberofColumns:: 64
+
+2020-11-14/10:23:49		NumberofColumns:: 64
+
+2020-11-14/17:48:49		NumberofColumns:: 64
+
+2020-11-14/17:49:16		NumberofColumns:: 64
+
+2020-11-14/17:50:18		NumberofColumns:: 64
+
+2020-11-14/17:51:53		NumberofColumns:: 64
+
+2020-11-14/17:54:09		NumberofColumns:: 64
+
+2020-11-14/17:58:14		NumberofColumns:: 64
+
+2020-11-14/18:01:24		NumberofColumns:: 64
+
+2020-11-14/18:45:55		NumberofColumns:: 64
+
+2020-11-15/13:22:00		NumberofColumns:: 64
+
+2020-11-24/14:04:46		NumberofColumns:: 64
+
+2020-11-28/20:37:32		NumberofColumns:: 64
+
+2020-12-02/08:55:20		NumberofColumns:: 64
+
+2020-12-02/09:24:18		NumberofColumns:: 64
+
+2020-12-02/09:25:10		NumberofColumns:: 64
+
+2020-12-02/09:28:06		NumberofColumns:: 64
+
+2020-12-02/09:30:35		NumberofColumns:: 64
+
+2020-12-02/09:35:41		NumberofColumns:: 64
+
+2020-12-02/09:45:16		NumberofColumns:: 64
+
+2020-12-02/09:46:28		NumberofColumns:: 64
+
+2020-12-02/09:50:17		NumberofColumns:: 64
+
+2020-12-02/10:00:01		NumberofColumns:: 64
+
+2020-12-02/10:02:45		NumberofColumns:: 64
+
+2020-12-02/10:15:53		NumberofColumns:: 64
+
+2020-12-02/10:28:17		NumberofColumns:: 64
+
+2020-12-02/10:31:04		NumberofColumns:: 64
+
+2020-12-02/10:33:45		NumberofColumns:: 64
+
+2020-12-23/00:21:47		NumberofColumns:: 64
+

@@ -1,0 +1,15 @@
+{	"SampleFileName": "1year.arff",
+	"NumberofColumns" : 10,
+	"ColName": {
+		"Attr46": "FLOAT" ,
+		"Attr11": "FLOAT",
+		"Attr63": "FLOAT",
+		"Attr38": "FLOAT",
+		"Attr60":"FLOAT" ,
+		"Attr62":"FLOAT" ,
+		"Attr51":"FLOAT" ,
+		"Attr17":"FLOAT" ,
+        "Attr8":"FLOAT" ,
+		"Attr50": "FLOAT"
+	}
+}
